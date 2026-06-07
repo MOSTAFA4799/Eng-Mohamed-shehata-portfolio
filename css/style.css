@@ -182,7 +182,7 @@ main{
     display: flex;
     align-items: center;
     /*background-color: #112d4e;*/
-    background-image: url(../images/mohamed1.png);
+    background-image: url(./images/mohamed1.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 470px;
