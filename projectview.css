@@ -106,6 +106,7 @@
     color: var(--secondary);
     line-height: 1.7;
     max-width: 70em;
+    margin-top: 10px;
 }
 
 /* ── Images Grid ── */
@@ -173,9 +174,10 @@
     font-size: 10px;
     color: var(--secondary);
 }
+/*
 footer{
     background-color: var(--primary);
-    /*padding: 0.1em;*/
+    /*padding: 0.1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -196,6 +198,26 @@ footer p{
     color: var(--tertiary);
        margin-left: 5px;
     transition: color 0.3s ease;
+}*/
+.footer{
+    width: 100%;
+    padding: 0.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+   }
+.footer-title{
+    color: var(--tertiary);
+    font-size: 0.7em;
+    font-weight: 600;
+}
+.footer-title span{
+      color:var(--primary);}
+.footer .sociallinks a{
+    color: var(--primary); ;
+    font-size: 1.2em;
+    padding-right: 3px;
 }
 @media (max-width: 1024px) {
 
